@@ -1,0 +1,10 @@
+# makepkg build artifacts
+/src/
+/pkg/
+/dmenu-*/
+*.pkg.tar.zst
+*.pkg.tar.*
+
+# downloaded sources
+/dmenu-*.tar.gz
+/*.diff
