@@ -7,6 +7,7 @@ pkgdesc="Dynamic menu for X, patched with runtime X Resources support"
 arch=('x86_64')
 url="https://tools.suckless.org/dmenu/"
 license=('MIT')
+# NOTE: if you change depends or makedepends, update the Debian name mapping in debian-install.sh.
 depends=('libxinerama' 'libxft' 'freetype2' 'fontconfig')
 makedepends=('libxft')
 provides=('dmenu')
